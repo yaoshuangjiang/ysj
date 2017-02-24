@@ -13,11 +13,30 @@
 </head>
 
 <body>
+
 <form action="<?php echo base_url(); ?>gogo/register1" method="POST">
-    <h5>用户名：</h5>
-    <input type="text" name="username"/>
-    <h5>密码：</h5>
-    <input type="text" name="password"/><br>
+    <div>
+        <tr>
+            <h5>
+                <td>
+                    用户名：
+                </td>
+                <td>
+                    <input type="text" name="username"/>
+                </td>
+            </h5>
+        </tr>
+        <tr>
+            <h5>
+                <td>
+                    &nbsp;&nbsp;&nbsp;密码：
+                </td>
+                <td>
+                    <input type="text" name="password"/>
+                </td>
+            </h5>
+        </tr>
+    </div>
     <input type="submit" value="注册"/>
 </form>
 
